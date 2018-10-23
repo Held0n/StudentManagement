@@ -1,0 +1,5 @@
+/home/heldon/下载/CLion/CLion/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/heldon/CLionProjects/StudentManagement_new_2
+/home/heldon/CLionProjects/StudentManagement_new_2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/heldon/CLionProjects/StudentManagement_new_2/cmake-build-debug
