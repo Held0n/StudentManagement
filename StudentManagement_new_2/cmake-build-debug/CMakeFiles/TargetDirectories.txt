@@ -1,3 +1,4 @@
 /home/heldon/CLionProjects/StudentManagement_new_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/heldon/CLionProjects/StudentManagement_new_2/cmake-build-debug/CMakeFiles/StudentManagement_adaptor.dir
 /home/heldon/CLionProjects/StudentManagement_new_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/heldon/CLionProjects/StudentManagement_new_2/cmake-build-debug/CMakeFiles/StudentManagement_new_2.dir

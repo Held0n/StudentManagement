@@ -4,16 +4,34 @@
 CMakeFiles/StudentManagement_new_2.dir/Chinese.cpp.o: ../Chinese.h
 CMakeFiles/StudentManagement_new_2.dir/Chinese.cpp.o: ../Chinese.cpp
 
+CMakeFiles/StudentManagement_new_2.dir/ChineseFactory.cpp.o: ../Chinese.h
+CMakeFiles/StudentManagement_new_2.dir/ChineseFactory.cpp.o: ../Student.h
+CMakeFiles/StudentManagement_new_2.dir/ChineseFactory.cpp.o: ../Teacher.h
+CMakeFiles/StudentManagement_new_2.dir/ChineseFactory.cpp.o: ../ChineseFactory.cpp
+CMakeFiles/StudentManagement_new_2.dir/ChineseFactory.cpp.o: ../ChineseFactory.h
+
+CMakeFiles/StudentManagement_new_2.dir/Compulsory.cpp.o: ../Chinese.h
+CMakeFiles/StudentManagement_new_2.dir/Compulsory.cpp.o: ../Subject.h
+CMakeFiles/StudentManagement_new_2.dir/Compulsory.cpp.o: ../Teacher.h
+CMakeFiles/StudentManagement_new_2.dir/Compulsory.cpp.o: ../Compulsory.cpp
+CMakeFiles/StudentManagement_new_2.dir/Compulsory.cpp.o: ../Compulsory.h
+
 CMakeFiles/StudentManagement_new_2.dir/Student.cpp.o: ../Chinese.h
 CMakeFiles/StudentManagement_new_2.dir/Student.cpp.o: ../Student.h
 CMakeFiles/StudentManagement_new_2.dir/Student.cpp.o: ../Teacher.h
 CMakeFiles/StudentManagement_new_2.dir/Student.cpp.o: ../Student.cpp
+
+CMakeFiles/StudentManagement_new_2.dir/Subject.cpp.o: ../Chinese.h
+CMakeFiles/StudentManagement_new_2.dir/Subject.cpp.o: ../Teacher.h
+CMakeFiles/StudentManagement_new_2.dir/Subject.cpp.o: ../Subject.cpp
+CMakeFiles/StudentManagement_new_2.dir/Subject.cpp.o: ../Subject.h
 
 CMakeFiles/StudentManagement_new_2.dir/Teacher.cpp.o: ../Chinese.h
 CMakeFiles/StudentManagement_new_2.dir/Teacher.cpp.o: ../Teacher.h
 CMakeFiles/StudentManagement_new_2.dir/Teacher.cpp.o: ../Teacher.cpp
 
 CMakeFiles/StudentManagement_new_2.dir/main.cpp.o: ../Chinese.h
+CMakeFiles/StudentManagement_new_2.dir/main.cpp.o: ../ChineseFactory.h
 CMakeFiles/StudentManagement_new_2.dir/main.cpp.o: ../Student.h
 CMakeFiles/StudentManagement_new_2.dir/main.cpp.o: ../Teacher.h
 CMakeFiles/StudentManagement_new_2.dir/main.cpp.o: ../main.cpp

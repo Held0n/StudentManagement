@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/StudentManagement_new_2.dir/Teacher.cpp.o"
   "CMakeFiles/StudentManagement_new_2.dir/Subject.cpp.o"
   "CMakeFiles/StudentManagement_new_2.dir/Compulsory.cpp.o"
+  "CMakeFiles/StudentManagement_new_2.dir/ChineseFactory.cpp.o"
   "StudentManagement_new_2.pdb"
   "StudentManagement_new_2"
 )

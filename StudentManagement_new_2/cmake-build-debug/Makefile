@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named StudentManagement_adaptor
+
+# Build rule for target.
+StudentManagement_adaptor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 StudentManagement_adaptor
+.PHONY : StudentManagement_adaptor
+
+# fast build rule for target.
+StudentManagement_adaptor/fast:
+	$(MAKE) -f CMakeFiles/StudentManagement_adaptor.dir/build.make CMakeFiles/StudentManagement_adaptor.dir/build
+.PHONY : StudentManagement_adaptor/fast
+
+#=============================================================================
 # Target rules for targets named StudentManagement_new_2
 
 # Build rule for target.
@@ -150,6 +163,33 @@ Chinese.cpp.s:
 	$(MAKE) -f CMakeFiles/StudentManagement_new_2.dir/build.make CMakeFiles/StudentManagement_new_2.dir/Chinese.cpp.s
 .PHONY : Chinese.cpp.s
 
+ChineseFactory.o: ChineseFactory.cpp.o
+
+.PHONY : ChineseFactory.o
+
+# target to build an object file
+ChineseFactory.cpp.o:
+	$(MAKE) -f CMakeFiles/StudentManagement_new_2.dir/build.make CMakeFiles/StudentManagement_new_2.dir/ChineseFactory.cpp.o
+.PHONY : ChineseFactory.cpp.o
+
+ChineseFactory.i: ChineseFactory.cpp.i
+
+.PHONY : ChineseFactory.i
+
+# target to preprocess a source file
+ChineseFactory.cpp.i:
+	$(MAKE) -f CMakeFiles/StudentManagement_new_2.dir/build.make CMakeFiles/StudentManagement_new_2.dir/ChineseFactory.cpp.i
+.PHONY : ChineseFactory.cpp.i
+
+ChineseFactory.s: ChineseFactory.cpp.s
+
+.PHONY : ChineseFactory.s
+
+# target to generate assembly for a file
+ChineseFactory.cpp.s:
+	$(MAKE) -f CMakeFiles/StudentManagement_new_2.dir/build.make CMakeFiles/StudentManagement_new_2.dir/ChineseFactory.cpp.s
+.PHONY : ChineseFactory.cpp.s
+
 Compulsory.o: Compulsory.cpp.o
 
 .PHONY : Compulsory.o
@@ -176,6 +216,33 @@ Compulsory.s: Compulsory.cpp.s
 Compulsory.cpp.s:
 	$(MAKE) -f CMakeFiles/StudentManagement_new_2.dir/build.make CMakeFiles/StudentManagement_new_2.dir/Compulsory.cpp.s
 .PHONY : Compulsory.cpp.s
+
+Operation.o: Operation.cpp.o
+
+.PHONY : Operation.o
+
+# target to build an object file
+Operation.cpp.o:
+	$(MAKE) -f CMakeFiles/StudentManagement_adaptor.dir/build.make CMakeFiles/StudentManagement_adaptor.dir/Operation.cpp.o
+.PHONY : Operation.cpp.o
+
+Operation.i: Operation.cpp.i
+
+.PHONY : Operation.i
+
+# target to preprocess a source file
+Operation.cpp.i:
+	$(MAKE) -f CMakeFiles/StudentManagement_adaptor.dir/build.make CMakeFiles/StudentManagement_adaptor.dir/Operation.cpp.i
+.PHONY : Operation.cpp.i
+
+Operation.s: Operation.cpp.s
+
+.PHONY : Operation.s
+
+# target to generate assembly for a file
+Operation.cpp.s:
+	$(MAKE) -f CMakeFiles/StudentManagement_adaptor.dir/build.make CMakeFiles/StudentManagement_adaptor.dir/Operation.cpp.s
+.PHONY : Operation.cpp.s
 
 Student.o: Student.cpp.o
 
@@ -210,6 +277,7 @@ Subject.o: Subject.cpp.o
 
 # target to build an object file
 Subject.cpp.o:
+	$(MAKE) -f CMakeFiles/StudentManagement_adaptor.dir/build.make CMakeFiles/StudentManagement_adaptor.dir/Subject.cpp.o
 	$(MAKE) -f CMakeFiles/StudentManagement_new_2.dir/build.make CMakeFiles/StudentManagement_new_2.dir/Subject.cpp.o
 .PHONY : Subject.cpp.o
 
@@ -219,6 +287,7 @@ Subject.i: Subject.cpp.i
 
 # target to preprocess a source file
 Subject.cpp.i:
+	$(MAKE) -f CMakeFiles/StudentManagement_adaptor.dir/build.make CMakeFiles/StudentManagement_adaptor.dir/Subject.cpp.i
 	$(MAKE) -f CMakeFiles/StudentManagement_new_2.dir/build.make CMakeFiles/StudentManagement_new_2.dir/Subject.cpp.i
 .PHONY : Subject.cpp.i
 
@@ -228,6 +297,7 @@ Subject.s: Subject.cpp.s
 
 # target to generate assembly for a file
 Subject.cpp.s:
+	$(MAKE) -f CMakeFiles/StudentManagement_adaptor.dir/build.make CMakeFiles/StudentManagement_adaptor.dir/Subject.cpp.s
 	$(MAKE) -f CMakeFiles/StudentManagement_new_2.dir/build.make CMakeFiles/StudentManagement_new_2.dir/Subject.cpp.s
 .PHONY : Subject.cpp.s
 
@@ -285,6 +355,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/StudentManagement_new_2.dir/build.make CMakeFiles/StudentManagement_new_2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+main_adaptor.o: main_adaptor.cpp.o
+
+.PHONY : main_adaptor.o
+
+# target to build an object file
+main_adaptor.cpp.o:
+	$(MAKE) -f CMakeFiles/StudentManagement_adaptor.dir/build.make CMakeFiles/StudentManagement_adaptor.dir/main_adaptor.cpp.o
+.PHONY : main_adaptor.cpp.o
+
+main_adaptor.i: main_adaptor.cpp.i
+
+.PHONY : main_adaptor.i
+
+# target to preprocess a source file
+main_adaptor.cpp.i:
+	$(MAKE) -f CMakeFiles/StudentManagement_adaptor.dir/build.make CMakeFiles/StudentManagement_adaptor.dir/main_adaptor.cpp.i
+.PHONY : main_adaptor.cpp.i
+
+main_adaptor.s: main_adaptor.cpp.s
+
+.PHONY : main_adaptor.s
+
+# target to generate assembly for a file
+main_adaptor.cpp.s:
+	$(MAKE) -f CMakeFiles/StudentManagement_adaptor.dir/build.make CMakeFiles/StudentManagement_adaptor.dir/main_adaptor.cpp.s
+.PHONY : main_adaptor.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -292,14 +389,21 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... StudentManagement_adaptor"
 	@echo "... rebuild_cache"
 	@echo "... StudentManagement_new_2"
 	@echo "... Chinese.o"
 	@echo "... Chinese.i"
 	@echo "... Chinese.s"
+	@echo "... ChineseFactory.o"
+	@echo "... ChineseFactory.i"
+	@echo "... ChineseFactory.s"
 	@echo "... Compulsory.o"
 	@echo "... Compulsory.i"
 	@echo "... Compulsory.s"
+	@echo "... Operation.o"
+	@echo "... Operation.i"
+	@echo "... Operation.s"
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"
@@ -312,6 +416,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... main_adaptor.o"
+	@echo "... main_adaptor.i"
+	@echo "... main_adaptor.s"
 .PHONY : help
 
 

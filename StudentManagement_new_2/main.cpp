@@ -3,6 +3,7 @@
 #include <memory>
 #include <Chinese.h>
 #include <Student.h>
+#include <ChineseFactory.h>
 
 using std::cout;
 using std::cin;
@@ -50,5 +51,11 @@ int main(){
 
         student_heldon.set_head(li_ptr);
         student_heldon.print_student_and_head_relationship();
+
+        cout<< "---------------------------"<<endl;
+
+        ChineseFactory *ch_factory = new ChineseFactory();
+        Chinese ch = ch_factory->creat_chinese(make_shared<string>("zht"),20152480,22);
+        cout<< ch << endl;
 
     }

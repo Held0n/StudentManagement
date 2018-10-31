@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/StudentManagement_adaptor.dir/main_adaptor.cpp.o CMakeFiles/StudentManagement_adaptor.dir/Subject.cpp.o CMakeFiles/StudentManagement_adaptor.dir/Operation.cpp.o  -o StudentManagement_adaptor 

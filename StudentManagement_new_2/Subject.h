@@ -35,16 +35,24 @@
      Option<string> m_description;
      /*老师集合*/
      vector<shared_ptr<Teacher> > mp_teachers;
+     /*课程号*/
+     int m_subject_id;
 
- protected:
-
-     Subject(const string &m_subject_name, float m_points, short m_times,const Option<string> &m_description,
-             const vector<shared_ptr<Teacher> > &mp_teachers);
  public:
+
+     Subject(int m_subject_id,const string &m_subject_name,
+             float m_points, short m_times,const Option<string> &m_description,
+             const vector<shared_ptr<Teacher> > &mp_teachers);
+
+     Subject(int m_subject_id,const string &m_subject_name);
 
      Subject() = delete;
 
      const string &getM_subject_name() const;
+
+     int getM_subject_id() const;
+
+     void setM_subject_id(int m_subject_id);
 
      void setM_subject_name(const string &m_subject_name);
 

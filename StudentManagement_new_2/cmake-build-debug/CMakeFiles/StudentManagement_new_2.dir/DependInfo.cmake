@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/heldon/CLionProjects/StudentManagement_new_2/Chinese.cpp" "/home/heldon/CLionProjects/StudentManagement_new_2/cmake-build-debug/CMakeFiles/StudentManagement_new_2.dir/Chinese.cpp.o"
+  "/home/heldon/CLionProjects/StudentManagement_new_2/ChineseFactory.cpp" "/home/heldon/CLionProjects/StudentManagement_new_2/cmake-build-debug/CMakeFiles/StudentManagement_new_2.dir/ChineseFactory.cpp.o"
   "/home/heldon/CLionProjects/StudentManagement_new_2/Compulsory.cpp" "/home/heldon/CLionProjects/StudentManagement_new_2/cmake-build-debug/CMakeFiles/StudentManagement_new_2.dir/Compulsory.cpp.o"
   "/home/heldon/CLionProjects/StudentManagement_new_2/Student.cpp" "/home/heldon/CLionProjects/StudentManagement_new_2/cmake-build-debug/CMakeFiles/StudentManagement_new_2.dir/Student.cpp.o"
   "/home/heldon/CLionProjects/StudentManagement_new_2/Subject.cpp" "/home/heldon/CLionProjects/StudentManagement_new_2/cmake-build-debug/CMakeFiles/StudentManagement_new_2.dir/Subject.cpp.o"
